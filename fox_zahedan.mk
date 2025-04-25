@@ -16,20 +16,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Inherit some common twrp stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/fox/config/common.mk)
 
 # Inherit from zahedan device
 $(call inherit-product, device/daria/zahedan/device.mk)
 
 PRODUCT_DEVICE := zahedan
-PRODUCT_NAME := twrp_zahedan
+PRODUCT_NAME := fox_zahedan
 PRODUCT_BRAND := Daria
 PRODUCT_MODEL := DM-B50104
 PRODUCT_MANUFACTURER := daria
 
 PRODUCT_GMS_CLIENTID_BASE := android-jimi
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="zahedan-user 14 UQ1A.240205.004 V5.22.2.3.BOND release-keys"
+#PRODUCT_BUILD_PROP_OVERRIDES += \
+#    PRIVATE_BUILD_DESC="zahedan-user 14 UQ1A.240205.004 V5.22.2.3.BOND release-keys"
 
-BUILD_FINGERPRINT := Daria/zahedan/zahedan:14/UQ1A.240205.004/V5.22.2.3.BOND:user/release-keys
+#BUILD_FINGERPRINT := Daria/zahedan/zahedan:14/UQ1A.240205.004/V5.22.2.3.BOND:user/release-keys
