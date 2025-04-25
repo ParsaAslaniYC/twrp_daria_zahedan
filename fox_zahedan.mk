@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Inherit some common twrp stuff.
-$(call inherit-product, vendor/fox/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from zahedan device
 $(call inherit-product, device/daria/zahedan/device.mk)
