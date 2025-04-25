@@ -6,7 +6,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_zahedan.mk
+    $(LOCAL_DIR)/fox_zahedan.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_zahedan-eng
+    fox_zahedan-eng
+# gay phone af
